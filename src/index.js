@@ -7,7 +7,7 @@ function displayTemperature(response){
     let windSpeedElement = document.querySelector("#wind-speed");
     let timeElement = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
-    let iconElement = document.querySelector(".weather-app-icon");
+    let iconElement = document.querySelector("#icon");
 
     cityElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = Math.round(temperature);
