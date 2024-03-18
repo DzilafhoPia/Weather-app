@@ -1,3 +1,4 @@
+
 function displayTemperature(response){
     let temperatureElement = document.querySelector(".weather-app-temperature");
     let temperature = (response.data.temperature.current);
