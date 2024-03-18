@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #abcff3;
+  color: #885df1;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #889aae;
+  background-color: #ccddf0;
   border: none;
   border-radius: 6px;
   width: 60%;
@@ -31,7 +31,7 @@ header {
 }
 
 .search-form-button {
-  background-color: #abcff3;
+  background-color: #889aae;
   padding: 15px 20px;
   border: none;
   margin-left: 5px;
